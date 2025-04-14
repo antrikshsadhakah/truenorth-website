@@ -1,0 +1,1816 @@
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[405],{
+
+/***/ 1476:
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+
+    (window.__NEXT_P = window.__NEXT_P || []).push([
+      "/",
+      function () {
+        return __webpack_require__(8010);
+      }
+    ]);
+    if(false) {}
+  
+
+/***/ }),
+
+/***/ 4826:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2676);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5271);
+/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2702);
+/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+const Logo = ()=>{
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        className: "flex items-center gap-3",
+        "data-co-dev-file-path": "src/components/Logo.tsx",
+        "data-co-dev-file-part": "106:611",
+        "data-co-dev-element": "div",
+        children: [
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                className: "w-12 h-12 flex items-center justify-center shadow-sm rounded-md overflow-hidden",
+                "data-co-dev-file-path": "src/components/Logo.tsx",
+                "data-co-dev-file-part": "154:507",
+                "data-co-dev-element": "div",
+                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                    src: "https://assets.co.dev/5d273add-92a8-499c-8825-1a606c55fe31/logo.jpeg-5761dd4.jpeg",
+                    alt: "TrueNorth Capital Logo",
+                    width: 48,
+                    height: 48,
+                    className: "rounded-md",
+                    "data-co-dev-file-path": "src/components/Logo.tsx",
+                    "data-co-dev-file-part": "260:494",
+                    "data-co-dev-element": "Image"
+                })
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+                className: "text-xl font-bold text-primary tracking-tight",
+                "data-co-dev-file-path": "src/components/Logo.tsx",
+                "data-co-dev-file-part": "514:600",
+                "data-co-dev-element": "div",
+                children: "TrueNorth Capital"
+            })
+        ]
+    });
+};
+/* harmony default export */ __webpack_exports__.Z = (Logo);
+
+
+/***/ }),
+
+/***/ 5711:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   z: function() { return /* binding */ Button; }
+/* harmony export */ });
+/* unused harmony export buttonVariants */
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2676);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5271);
+/* harmony import */ var _radix_ui_react_slot__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1557);
+/* harmony import */ var class_variance_authority__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2808);
+/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1275);
+
+
+
+
+
+const buttonVariants = (0,class_variance_authority__WEBPACK_IMPORTED_MODULE_2__/* .cva */ .j)("inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0", {
+    variants: {
+        variant: {
+            default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
+            destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
+            outline: "text-foreground border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
+            secondary: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
+            ghost: "hover:bg-accent hover:text-accent-foreground",
+            link: "text-primary underline-offset-4 hover:underline"
+        },
+        size: {
+            default: "h-9 px-4 py-2",
+            sm: "h-8 rounded-md px-3 text-xs",
+            lg: "h-10 rounded-md px-8",
+            icon: "h-9 w-9"
+        }
+    },
+    defaultVariants: {
+        variant: "default",
+        size: "default"
+    }
+});
+const Button = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_1__.forwardRef((param, ref)=>{
+    let { className, variant, size, asChild = false, ...props } = param;
+    const Comp = asChild ? _radix_ui_react_slot__WEBPACK_IMPORTED_MODULE_3__/* .Slot */ .g7 : "button";
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Comp, {
+        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_4__.cn)(buttonVariants({
+            variant,
+            size,
+            className
+        })),
+        ref: ref,
+        ...props,
+        "data-co-dev-file-path": "src/components/ui/button.tsx",
+        "data-co-dev-file-part": "1720:1840",
+        "data-co-dev-element": "Comp"
+    });
+});
+Button.displayName = "Button";
+
+
+
+/***/ }),
+
+/***/ 7598:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Ol: function() { return /* binding */ CardHeader; },
+/* harmony export */   SZ: function() { return /* binding */ CardDescription; },
+/* harmony export */   Zb: function() { return /* binding */ Card; },
+/* harmony export */   aY: function() { return /* binding */ CardContent; },
+/* harmony export */   eW: function() { return /* binding */ CardFooter; },
+/* harmony export */   ll: function() { return /* binding */ CardTitle; }
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2676);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5271);
+/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1275);
+
+
+
+const Card = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_1__.forwardRef((param, ref)=>{
+    let { className, ...props } = param;
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+        ref: ref,
+        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)("rounded-[calc(var(--radius))] border-border border bg-card text-card-foreground shadow", className),
+        ...props,
+        "data-co-dev-file-path": "src/components/ui/card.tsx",
+        "data-co-dev-file-part": "194:370",
+        "data-co-dev-element": "div"
+    });
+});
+Card.displayName = "Card";
+const CardHeader = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_1__.forwardRef((param, ref)=>{
+    let { className, ...props } = param;
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+        ref: ref,
+        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)("flex flex-col space-y-1.5 p-6", className),
+        ...props,
+        "data-co-dev-file-path": "src/components/ui/card.tsx",
+        "data-co-dev-file-part": "535:636",
+        "data-co-dev-element": "div"
+    });
+});
+CardHeader.displayName = "CardHeader";
+const CardTitle = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_1__.forwardRef((param, ref)=>{
+    let { className, ...props } = param;
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
+        ref: ref,
+        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)("font-semibold leading-none tracking-tight", className),
+        ...props,
+        "data-co-dev-file-path": "src/components/ui/card.tsx",
+        "data-co-dev-file-part": "822:934",
+        "data-co-dev-element": "h3"
+    });
+});
+CardTitle.displayName = "CardTitle";
+const CardDescription = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_1__.forwardRef((param, ref)=>{
+    let { className, ...props } = param;
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+        ref: ref,
+        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)("text-sm text-muted-foreground", className),
+        ...props,
+        "data-co-dev-file-path": "src/components/ui/card.tsx",
+        "data-co-dev-file-part": "1126:1225",
+        "data-co-dev-element": "p"
+    });
+});
+CardDescription.displayName = "CardDescription";
+const CardContent = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_1__.forwardRef((param, ref)=>{
+    let { className, ...props } = param;
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+        ref: ref,
+        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)("p-6 pt-0", className),
+        ...props,
+        "data-co-dev-file-path": "src/components/ui/card.tsx",
+        "data-co-dev-file-part": "1413:1479",
+        "data-co-dev-element": "div"
+    });
+});
+CardContent.displayName = "CardContent";
+const CardFooter = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_1__.forwardRef((param, ref)=>{
+    let { className, ...props } = param;
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+        ref: ref,
+        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)("flex items-center p-6 pt-0", className),
+        ...props,
+        "data-co-dev-file-path": "src/components/ui/card.tsx",
+        "data-co-dev-file-part": "1658:1756",
+        "data-co-dev-element": "div"
+    });
+});
+CardFooter.displayName = "CardFooter";
+
+
+
+/***/ }),
+
+/***/ 5071:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   I: function() { return /* binding */ Input; }
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2676);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5271);
+/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1275);
+
+
+
+const Input = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_1__.forwardRef((param, ref)=>{
+    let { className, type, ...props } = param;
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+        type: type,
+        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)("flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50", className),
+        ref: ref,
+        ...props,
+        "data-co-dev-file-path": "src/components/ui/input.tsx",
+        "data-co-dev-file-part": "277:763",
+        "data-co-dev-element": "input"
+    });
+});
+Input.displayName = "Input";
+
+
+
+/***/ }),
+
+/***/ 8010:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": function() { return /* binding */ Home; }
+});
+
+// EXTERNAL MODULE: ./node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(2676);
+// EXTERNAL MODULE: ./node_modules/.pnpm/react@18.3.1/node_modules/react/index.js
+var react = __webpack_require__(5271);
+// EXTERNAL MODULE: ./node_modules/.pnpm/next@14.2.6_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/head.js
+var head = __webpack_require__(4822);
+var head_default = /*#__PURE__*/__webpack_require__.n(head);
+// EXTERNAL MODULE: ./node_modules/.pnpm/next@14.2.6_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/router.js
+var next_router = __webpack_require__(3461);
+// EXTERNAL MODULE: ./src/components/Logo.tsx
+var Logo = __webpack_require__(4826);
+// EXTERNAL MODULE: ./src/components/ui/button.tsx
+var ui_button = __webpack_require__(5711);
+;// CONCATENATED MODULE: ./src/components/Header.tsx
+
+
+
+
+const Header = ()=>{
+    const router = (0,next_router.useRouter)();
+    const scrollToSection = (sectionId)=>{
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    };
+    const navigateToContact = ()=>{
+        window.open("https://forms.zohopublic.in/truenorthcaptgm1/form/ContactUs/formperma/MsBtYUI93-4PVXyGw7p0y4JKRK3Idlq6VmReVz8lopg", "_blank");
+    };
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+        className: "w-full border-b sticky top-0 bg-background z-50",
+        "data-co-dev-file-path": "src/components/Header.tsx",
+        "data-co-dev-file-part": "565:1967",
+        "data-co-dev-element": "div",
+        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+            className: "flex justify-between items-center py-4 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto",
+            "data-co-dev-file-path": "src/components/Header.tsx",
+            "data-co-dev-file-part": "637:1956",
+            "data-co-dev-element": "div",
+            children: [
+                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                    className: "cursor-pointer",
+                    onClick: ()=>scrollToSection("home"),
+                    "data-co-dev-file-path": "src/components/Header.tsx",
+                    "data-co-dev-file-part": "741:847",
+                    "data-co-dev-element": "div",
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Logo/* default */.Z, {
+                        "data-co-dev-file-path": "src/components/Header.tsx",
+                        "data-co-dev-file-part": "824:832",
+                        "data-co-dev-element": "Logo"
+                    })
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsxs)("nav", {
+                    className: "hidden md:flex items-center space-x-8",
+                    "data-co-dev-file-path": "src/components/Header.tsx",
+                    "data-co-dev-file-part": "865:1774",
+                    "data-co-dev-element": "nav",
+                    children: [
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                            onClick: ()=>scrollToSection("home"),
+                            className: "text-sm font-medium hover:text-primary transition-colors cursor-pointer",
+                            "data-co-dev-file-path": "src/components/Header.tsx",
+                            "data-co-dev-file-part": "931:1127",
+                            "data-co-dev-element": "a",
+                            children: "Home"
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                            onClick: ()=>scrollToSection("offerings"),
+                            className: "text-sm font-medium hover:text-primary transition-colors cursor-pointer",
+                            "data-co-dev-file-path": "src/components/Header.tsx",
+                            "data-co-dev-file-part": "1138:1344",
+                            "data-co-dev-element": "a",
+                            children: "Offerings"
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                            onClick: ()=>scrollToSection("contact"),
+                            className: "text-sm font-medium hover:text-primary transition-colors cursor-pointer",
+                            "data-co-dev-file-path": "src/components/Header.tsx",
+                            "data-co-dev-file-part": "1355:1557",
+                            "data-co-dev-element": "a",
+                            children: "Contact"
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                            onClick: navigateToContact,
+                            className: "text-sm font-medium hover:text-primary transition-colors cursor-pointer",
+                            "data-co-dev-file-path": "src/components/Header.tsx",
+                            "data-co-dev-file-part": "1568:1759",
+                            "data-co-dev-element": "a",
+                            children: "Get in Touch"
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                    className: "flex items-center",
+                    "data-co-dev-file-path": "src/components/Header.tsx",
+                    "data-co-dev-file-part": "1792:1943",
+                    "data-co-dev-element": "div",
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ui_button/* Button */.z, {
+                        size: "sm",
+                        onClick: navigateToContact,
+                        "data-co-dev-file-path": "src/components/Header.tsx",
+                        "data-co-dev-file-part": "1838:1928",
+                        "data-co-dev-element": "Button",
+                        children: "Get Started"
+                    })
+                })
+            ]
+        })
+    });
+};
+/* harmony default export */ var components_Header = (Header);
+
+// EXTERNAL MODULE: ./src/components/ui/card.tsx
+var card = __webpack_require__(7598);
+// EXTERNAL MODULE: ./src/components/ui/input.tsx
+var input = __webpack_require__(5071);
+// EXTERNAL MODULE: ./node_modules/.pnpm/@radix-ui+react-primitive@2.0.0_@types+react-dom@18.3.1_@types+react@18.3.12_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@radix-ui/react-primitive/dist/index.mjs
+var dist = __webpack_require__(9939);
+;// CONCATENATED MODULE: ./node_modules/.pnpm/@radix-ui+react-separator@1.1.0_@types+react-dom@18.3.1_@types+react@18.3.12_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@radix-ui/react-separator/dist/index.mjs
+// packages/react/separator/src/Separator.tsx
+
+
+
+var NAME = "Separator";
+var DEFAULT_ORIENTATION = "horizontal";
+var ORIENTATIONS = ["horizontal", "vertical"];
+var Separator = react.forwardRef((props, forwardedRef) => {
+  const { decorative, orientation: orientationProp = DEFAULT_ORIENTATION, ...domProps } = props;
+  const orientation = isValidOrientation(orientationProp) ? orientationProp : DEFAULT_ORIENTATION;
+  const ariaOrientation = orientation === "vertical" ? orientation : void 0;
+  const semanticProps = decorative ? { role: "none" } : { "aria-orientation": ariaOrientation, role: "separator" };
+  return /* @__PURE__ */ (0,jsx_runtime.jsx)(
+    dist/* Primitive */.WV.div,
+    {
+      "data-orientation": orientation,
+      ...semanticProps,
+      ...domProps,
+      ref: forwardedRef
+    }
+  );
+});
+Separator.displayName = NAME;
+function isValidOrientation(orientation) {
+  return ORIENTATIONS.includes(orientation);
+}
+var Root = Separator;
+
+//# sourceMappingURL=index.mjs.map
+
+// EXTERNAL MODULE: ./src/lib/utils.ts + 2 modules
+var utils = __webpack_require__(1275);
+;// CONCATENATED MODULE: ./src/components/ui/separator.tsx
+
+
+
+
+const separator_Separator = /*#__PURE__*/ react.forwardRef((param, ref)=>{
+    let { className, orientation = "horizontal", decorative = true, ...props } = param;
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Root, {
+        ref: ref,
+        decorative: decorative,
+        orientation: orientation,
+        className: (0,utils.cn)("shrink-0 bg-border", orientation === "horizontal" ? "h-[1px] w-full" : "h-full w-[1px]", className),
+        ...props,
+        "data-co-dev-file-path": "src/components/ui/separator.tsx",
+        "data-co-dev-file-part": "387:667",
+        "data-co-dev-element": "SeparatorPrimitive.Root"
+    });
+});
+separator_Separator.displayName = Root.displayName;
+
+
+// EXTERNAL MODULE: ./node_modules/.pnpm/@radix-ui+primitive@1.1.0/node_modules/@radix-ui/primitive/dist/index.mjs
+var primitive_dist = __webpack_require__(5061);
+// EXTERNAL MODULE: ./node_modules/.pnpm/@radix-ui+react-compose-refs@1.1.0_@types+react@18.3.12_react@18.3.1/node_modules/@radix-ui/react-compose-refs/dist/index.mjs
+var react_compose_refs_dist = __webpack_require__(1224);
+// EXTERNAL MODULE: ./node_modules/.pnpm/@radix-ui+react-context@1.1.1_@types+react@18.3.12_react@18.3.1/node_modules/@radix-ui/react-context/dist/index.mjs
+var react_context_dist = __webpack_require__(9407);
+// EXTERNAL MODULE: ./node_modules/.pnpm/@radix-ui+react-id@1.1.0_@types+react@18.3.12_react@18.3.1/node_modules/@radix-ui/react-id/dist/index.mjs
+var react_id_dist = __webpack_require__(5065);
+// EXTERNAL MODULE: ./node_modules/.pnpm/@radix-ui+react-use-controllable-state@1.1.0_@types+react@18.3.12_react@18.3.1/node_modules/@radix-ui/react-use-controllable-state/dist/index.mjs
+var react_use_controllable_state_dist = __webpack_require__(9945);
+// EXTERNAL MODULE: ./node_modules/.pnpm/@radix-ui+react-dismissable-layer@1.1.1_@types+react-dom@18.3.1_@types+react@18.3.12_re_008a4578e03aa66e2497f1af918abc52/node_modules/@radix-ui/react-dismissable-layer/dist/index.mjs + 1 modules
+var react_dismissable_layer_dist = __webpack_require__(1027);
+// EXTERNAL MODULE: ./node_modules/.pnpm/@radix-ui+react-focus-scope@1.1.0_@types+react-dom@18.3.1_@types+react@18.3.12_react-do_77d83a1e4a5e4cf7b2836c5f1857bbc5/node_modules/@radix-ui/react-focus-scope/dist/index.mjs
+var react_focus_scope_dist = __webpack_require__(7743);
+// EXTERNAL MODULE: ./node_modules/.pnpm/@radix-ui+react-portal@1.1.2_@types+react-dom@18.3.1_@types+react@18.3.12_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@radix-ui/react-portal/dist/index.mjs
+var react_portal_dist = __webpack_require__(408);
+// EXTERNAL MODULE: ./node_modules/.pnpm/@radix-ui+react-presence@1.1.1_@types+react-dom@18.3.1_@types+react@18.3.12_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@radix-ui/react-presence/dist/index.mjs
+var react_presence_dist = __webpack_require__(8173);
+// EXTERNAL MODULE: ./node_modules/.pnpm/@radix-ui+react-focus-guards@1.1.1_@types+react@18.3.12_react@18.3.1/node_modules/@radix-ui/react-focus-guards/dist/index.mjs
+var react_focus_guards_dist = __webpack_require__(1077);
+// EXTERNAL MODULE: ./node_modules/.pnpm/react-remove-scroll@2.6.0_@types+react@18.3.12_react@18.3.1/node_modules/react-remove-scroll/dist/es2015/Combination.js + 21 modules
+var Combination = __webpack_require__(6393);
+// EXTERNAL MODULE: ./node_modules/.pnpm/aria-hidden@1.2.4/node_modules/aria-hidden/dist/es2015/index.js
+var es2015 = __webpack_require__(9800);
+// EXTERNAL MODULE: ./node_modules/.pnpm/@radix-ui+react-slot@1.1.0_@types+react@18.3.12_react@18.3.1/node_modules/@radix-ui/react-slot/dist/index.mjs
+var react_slot_dist = __webpack_require__(1557);
+;// CONCATENATED MODULE: ./node_modules/.pnpm/@radix-ui+react-dialog@1.1.2_@types+react-dom@18.3.1_@types+react@18.3.12_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/@radix-ui/react-dialog/dist/index.mjs
+"use client";
+
+// packages/react/dialog/src/Dialog.tsx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var DIALOG_NAME = "Dialog";
+var [createDialogContext, createDialogScope] = (0,react_context_dist/* createContextScope */.b)(DIALOG_NAME);
+var [DialogProvider, useDialogContext] = createDialogContext(DIALOG_NAME);
+var Dialog = (props) => {
+  const {
+    __scopeDialog,
+    children,
+    open: openProp,
+    defaultOpen,
+    onOpenChange,
+    modal = true
+  } = props;
+  const triggerRef = react.useRef(null);
+  const contentRef = react.useRef(null);
+  const [open = false, setOpen] = (0,react_use_controllable_state_dist/* useControllableState */.T)({
+    prop: openProp,
+    defaultProp: defaultOpen,
+    onChange: onOpenChange
+  });
+  return /* @__PURE__ */ (0,jsx_runtime.jsx)(
+    DialogProvider,
+    {
+      scope: __scopeDialog,
+      triggerRef,
+      contentRef,
+      contentId: (0,react_id_dist/* useId */.M)(),
+      titleId: (0,react_id_dist/* useId */.M)(),
+      descriptionId: (0,react_id_dist/* useId */.M)(),
+      open,
+      onOpenChange: setOpen,
+      onOpenToggle: react.useCallback(() => setOpen((prevOpen) => !prevOpen), [setOpen]),
+      modal,
+      children
+    }
+  );
+};
+Dialog.displayName = DIALOG_NAME;
+var TRIGGER_NAME = "DialogTrigger";
+var DialogTrigger = react.forwardRef(
+  (props, forwardedRef) => {
+    const { __scopeDialog, ...triggerProps } = props;
+    const context = useDialogContext(TRIGGER_NAME, __scopeDialog);
+    const composedTriggerRef = (0,react_compose_refs_dist/* useComposedRefs */.e)(forwardedRef, context.triggerRef);
+    return /* @__PURE__ */ (0,jsx_runtime.jsx)(
+      dist/* Primitive */.WV.button,
+      {
+        type: "button",
+        "aria-haspopup": "dialog",
+        "aria-expanded": context.open,
+        "aria-controls": context.contentId,
+        "data-state": getState(context.open),
+        ...triggerProps,
+        ref: composedTriggerRef,
+        onClick: (0,primitive_dist/* composeEventHandlers */.M)(props.onClick, context.onOpenToggle)
+      }
+    );
+  }
+);
+DialogTrigger.displayName = TRIGGER_NAME;
+var PORTAL_NAME = "DialogPortal";
+var [PortalProvider, usePortalContext] = createDialogContext(PORTAL_NAME, {
+  forceMount: void 0
+});
+var DialogPortal = (props) => {
+  const { __scopeDialog, forceMount, children, container } = props;
+  const context = useDialogContext(PORTAL_NAME, __scopeDialog);
+  return /* @__PURE__ */ (0,jsx_runtime.jsx)(PortalProvider, { scope: __scopeDialog, forceMount, children: react.Children.map(children, (child) => /* @__PURE__ */ (0,jsx_runtime.jsx)(react_presence_dist/* Presence */.z, { present: forceMount || context.open, children: /* @__PURE__ */ (0,jsx_runtime.jsx)(react_portal_dist/* Portal */.h, { asChild: true, container, children: child }) })) });
+};
+DialogPortal.displayName = PORTAL_NAME;
+var OVERLAY_NAME = "DialogOverlay";
+var DialogOverlay = react.forwardRef(
+  (props, forwardedRef) => {
+    const portalContext = usePortalContext(OVERLAY_NAME, props.__scopeDialog);
+    const { forceMount = portalContext.forceMount, ...overlayProps } = props;
+    const context = useDialogContext(OVERLAY_NAME, props.__scopeDialog);
+    return context.modal ? /* @__PURE__ */ (0,jsx_runtime.jsx)(react_presence_dist/* Presence */.z, { present: forceMount || context.open, children: /* @__PURE__ */ (0,jsx_runtime.jsx)(DialogOverlayImpl, { ...overlayProps, ref: forwardedRef }) }) : null;
+  }
+);
+DialogOverlay.displayName = OVERLAY_NAME;
+var DialogOverlayImpl = react.forwardRef(
+  (props, forwardedRef) => {
+    const { __scopeDialog, ...overlayProps } = props;
+    const context = useDialogContext(OVERLAY_NAME, __scopeDialog);
+    return (
+      // Make sure `Content` is scrollable even when it doesn't live inside `RemoveScroll`
+      // ie. when `Overlay` and `Content` are siblings
+      /* @__PURE__ */ (0,jsx_runtime.jsx)(Combination/* default */.Z, { as: react_slot_dist/* Slot */.g7, allowPinchZoom: true, shards: [context.contentRef], children: /* @__PURE__ */ (0,jsx_runtime.jsx)(
+        dist/* Primitive */.WV.div,
+        {
+          "data-state": getState(context.open),
+          ...overlayProps,
+          ref: forwardedRef,
+          style: { pointerEvents: "auto", ...overlayProps.style }
+        }
+      ) })
+    );
+  }
+);
+var CONTENT_NAME = "DialogContent";
+var DialogContent = react.forwardRef(
+  (props, forwardedRef) => {
+    const portalContext = usePortalContext(CONTENT_NAME, props.__scopeDialog);
+    const { forceMount = portalContext.forceMount, ...contentProps } = props;
+    const context = useDialogContext(CONTENT_NAME, props.__scopeDialog);
+    return /* @__PURE__ */ (0,jsx_runtime.jsx)(react_presence_dist/* Presence */.z, { present: forceMount || context.open, children: context.modal ? /* @__PURE__ */ (0,jsx_runtime.jsx)(DialogContentModal, { ...contentProps, ref: forwardedRef }) : /* @__PURE__ */ (0,jsx_runtime.jsx)(DialogContentNonModal, { ...contentProps, ref: forwardedRef }) });
+  }
+);
+DialogContent.displayName = CONTENT_NAME;
+var DialogContentModal = react.forwardRef(
+  (props, forwardedRef) => {
+    const context = useDialogContext(CONTENT_NAME, props.__scopeDialog);
+    const contentRef = react.useRef(null);
+    const composedRefs = (0,react_compose_refs_dist/* useComposedRefs */.e)(forwardedRef, context.contentRef, contentRef);
+    react.useEffect(() => {
+      const content = contentRef.current;
+      if (content) return (0,es2015/* hideOthers */.Ry)(content);
+    }, []);
+    return /* @__PURE__ */ (0,jsx_runtime.jsx)(
+      DialogContentImpl,
+      {
+        ...props,
+        ref: composedRefs,
+        trapFocus: context.open,
+        disableOutsidePointerEvents: true,
+        onCloseAutoFocus: (0,primitive_dist/* composeEventHandlers */.M)(props.onCloseAutoFocus, (event) => {
+          event.preventDefault();
+          context.triggerRef.current?.focus();
+        }),
+        onPointerDownOutside: (0,primitive_dist/* composeEventHandlers */.M)(props.onPointerDownOutside, (event) => {
+          const originalEvent = event.detail.originalEvent;
+          const ctrlLeftClick = originalEvent.button === 0 && originalEvent.ctrlKey === true;
+          const isRightClick = originalEvent.button === 2 || ctrlLeftClick;
+          if (isRightClick) event.preventDefault();
+        }),
+        onFocusOutside: (0,primitive_dist/* composeEventHandlers */.M)(
+          props.onFocusOutside,
+          (event) => event.preventDefault()
+        )
+      }
+    );
+  }
+);
+var DialogContentNonModal = react.forwardRef(
+  (props, forwardedRef) => {
+    const context = useDialogContext(CONTENT_NAME, props.__scopeDialog);
+    const hasInteractedOutsideRef = react.useRef(false);
+    const hasPointerDownOutsideRef = react.useRef(false);
+    return /* @__PURE__ */ (0,jsx_runtime.jsx)(
+      DialogContentImpl,
+      {
+        ...props,
+        ref: forwardedRef,
+        trapFocus: false,
+        disableOutsidePointerEvents: false,
+        onCloseAutoFocus: (event) => {
+          props.onCloseAutoFocus?.(event);
+          if (!event.defaultPrevented) {
+            if (!hasInteractedOutsideRef.current) context.triggerRef.current?.focus();
+            event.preventDefault();
+          }
+          hasInteractedOutsideRef.current = false;
+          hasPointerDownOutsideRef.current = false;
+        },
+        onInteractOutside: (event) => {
+          props.onInteractOutside?.(event);
+          if (!event.defaultPrevented) {
+            hasInteractedOutsideRef.current = true;
+            if (event.detail.originalEvent.type === "pointerdown") {
+              hasPointerDownOutsideRef.current = true;
+            }
+          }
+          const target = event.target;
+          const targetIsTrigger = context.triggerRef.current?.contains(target);
+          if (targetIsTrigger) event.preventDefault();
+          if (event.detail.originalEvent.type === "focusin" && hasPointerDownOutsideRef.current) {
+            event.preventDefault();
+          }
+        }
+      }
+    );
+  }
+);
+var DialogContentImpl = react.forwardRef(
+  (props, forwardedRef) => {
+    const { __scopeDialog, trapFocus, onOpenAutoFocus, onCloseAutoFocus, ...contentProps } = props;
+    const context = useDialogContext(CONTENT_NAME, __scopeDialog);
+    const contentRef = react.useRef(null);
+    const composedRefs = (0,react_compose_refs_dist/* useComposedRefs */.e)(forwardedRef, contentRef);
+    (0,react_focus_guards_dist/* useFocusGuards */.EW)();
+    return /* @__PURE__ */ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, { children: [
+      /* @__PURE__ */ (0,jsx_runtime.jsx)(
+        react_focus_scope_dist/* FocusScope */.M,
+        {
+          asChild: true,
+          loop: true,
+          trapped: trapFocus,
+          onMountAutoFocus: onOpenAutoFocus,
+          onUnmountAutoFocus: onCloseAutoFocus,
+          children: /* @__PURE__ */ (0,jsx_runtime.jsx)(
+            react_dismissable_layer_dist/* DismissableLayer */.XB,
+            {
+              role: "dialog",
+              id: context.contentId,
+              "aria-describedby": context.descriptionId,
+              "aria-labelledby": context.titleId,
+              "data-state": getState(context.open),
+              ...contentProps,
+              ref: composedRefs,
+              onDismiss: () => context.onOpenChange(false)
+            }
+          )
+        }
+      ),
+      /* @__PURE__ */ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, { children: [
+        /* @__PURE__ */ (0,jsx_runtime.jsx)(TitleWarning, { titleId: context.titleId }),
+        /* @__PURE__ */ (0,jsx_runtime.jsx)(DescriptionWarning, { contentRef, descriptionId: context.descriptionId })
+      ] })
+    ] });
+  }
+);
+var TITLE_NAME = "DialogTitle";
+var DialogTitle = react.forwardRef(
+  (props, forwardedRef) => {
+    const { __scopeDialog, ...titleProps } = props;
+    const context = useDialogContext(TITLE_NAME, __scopeDialog);
+    return /* @__PURE__ */ (0,jsx_runtime.jsx)(dist/* Primitive */.WV.h2, { id: context.titleId, ...titleProps, ref: forwardedRef });
+  }
+);
+DialogTitle.displayName = TITLE_NAME;
+var DESCRIPTION_NAME = "DialogDescription";
+var DialogDescription = react.forwardRef(
+  (props, forwardedRef) => {
+    const { __scopeDialog, ...descriptionProps } = props;
+    const context = useDialogContext(DESCRIPTION_NAME, __scopeDialog);
+    return /* @__PURE__ */ (0,jsx_runtime.jsx)(dist/* Primitive */.WV.p, { id: context.descriptionId, ...descriptionProps, ref: forwardedRef });
+  }
+);
+DialogDescription.displayName = DESCRIPTION_NAME;
+var CLOSE_NAME = "DialogClose";
+var DialogClose = react.forwardRef(
+  (props, forwardedRef) => {
+    const { __scopeDialog, ...closeProps } = props;
+    const context = useDialogContext(CLOSE_NAME, __scopeDialog);
+    return /* @__PURE__ */ (0,jsx_runtime.jsx)(
+      dist/* Primitive */.WV.button,
+      {
+        type: "button",
+        ...closeProps,
+        ref: forwardedRef,
+        onClick: (0,primitive_dist/* composeEventHandlers */.M)(props.onClick, () => context.onOpenChange(false))
+      }
+    );
+  }
+);
+DialogClose.displayName = CLOSE_NAME;
+function getState(open) {
+  return open ? "open" : "closed";
+}
+var TITLE_WARNING_NAME = "DialogTitleWarning";
+var [WarningProvider, useWarningContext] = (0,react_context_dist/* createContext */.k)(TITLE_WARNING_NAME, {
+  contentName: CONTENT_NAME,
+  titleName: TITLE_NAME,
+  docsSlug: "dialog"
+});
+var TitleWarning = ({ titleId }) => {
+  const titleWarningContext = useWarningContext(TITLE_WARNING_NAME);
+  const MESSAGE = `\`${titleWarningContext.contentName}\` requires a \`${titleWarningContext.titleName}\` for the component to be accessible for screen reader users.
+
+If you want to hide the \`${titleWarningContext.titleName}\`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/${titleWarningContext.docsSlug}`;
+  react.useEffect(() => {
+    if (titleId) {
+      const hasTitle = document.getElementById(titleId);
+      if (!hasTitle) console.error(MESSAGE);
+    }
+  }, [MESSAGE, titleId]);
+  return null;
+};
+var DESCRIPTION_WARNING_NAME = "DialogDescriptionWarning";
+var DescriptionWarning = ({ contentRef, descriptionId }) => {
+  const descriptionWarningContext = useWarningContext(DESCRIPTION_WARNING_NAME);
+  const MESSAGE = `Warning: Missing \`Description\` or \`aria-describedby={undefined}\` for {${descriptionWarningContext.contentName}}.`;
+  react.useEffect(() => {
+    const describedById = contentRef.current?.getAttribute("aria-describedby");
+    if (descriptionId && describedById) {
+      const hasDescription = document.getElementById(descriptionId);
+      if (!hasDescription) console.warn(MESSAGE);
+    }
+  }, [MESSAGE, contentRef, descriptionId]);
+  return null;
+};
+var dist_Root = Dialog;
+var Trigger = DialogTrigger;
+var Portal = DialogPortal;
+var Overlay = DialogOverlay;
+var Content = DialogContent;
+var Title = DialogTitle;
+var Description = DialogDescription;
+var Close = DialogClose;
+
+//# sourceMappingURL=index.mjs.map
+
+// EXTERNAL MODULE: ./node_modules/.pnpm/@radix-ui+react-icons@1.3.1_react@18.3.1/node_modules/@radix-ui/react-icons/dist/react-icons.esm.js
+var react_icons_esm = __webpack_require__(7869);
+;// CONCATENATED MODULE: ./src/components/ui/dialog.tsx
+
+
+
+
+
+const dialog_Dialog = dist_Root;
+const dialog_DialogTrigger = Trigger;
+const dialog_DialogPortal = Portal;
+const dialog_DialogClose = Close;
+const dialog_DialogOverlay = /*#__PURE__*/ react.forwardRef((param, ref)=>{
+    let { className, ...props } = param;
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Overlay, {
+        ref: ref,
+        className: (0,utils.cn)("fixed inset-0 z-50 bg-black/80  data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0", className),
+        ...props,
+        "data-co-dev-file-path": "src/components/ui/dialog.tsx",
+        "data-co-dev-file-part": "544:805",
+        "data-co-dev-element": "DialogPrimitive.Overlay"
+    });
+});
+dialog_DialogOverlay.displayName = Overlay.displayName;
+const dialog_DialogContent = /*#__PURE__*/ react.forwardRef((param, ref)=>{
+    let { className, children, ...props } = param;
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(dialog_DialogPortal, {
+        "data-co-dev-file-path": "src/components/ui/dialog.tsx",
+        "data-co-dev-file-part": "1081:2251",
+        "data-co-dev-element": "DialogPortal",
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(dialog_DialogOverlay, {
+                "data-co-dev-file-path": "src/components/ui/dialog.tsx",
+                "data-co-dev-file-part": "1100:1117",
+                "data-co-dev-element": "DialogOverlay"
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(Content, {
+                ref: ref,
+                className: (0,utils.cn)("fixed left-[50%] top-[50%] z-50 grid w-full max-w-lg translate-x-[-50%] translate-y-[-50%] gap-4 border bg-background p-6 shadow-lg duration-200 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-left-1/2 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-left-1/2 data-[state=open]:slide-in-from-top-[48%] sm:rounded-lg", className),
+                ...props,
+                "data-co-dev-file-path": "src/components/ui/dialog.tsx",
+                "data-co-dev-file-part": "1122:2233",
+                "data-co-dev-element": "DialogPrimitive.Content",
+                children: [
+                    children,
+                    /*#__PURE__*/ (0,jsx_runtime.jsxs)(Close, {
+                        className: "absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground",
+                        "data-co-dev-file-path": "src/components/ui/dialog.tsx",
+                        "data-co-dev-file-part": "1776:2202",
+                        "data-co-dev-element": "DialogPrimitive.Close",
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)(react_icons_esm/* Cross2Icon */.Pxu, {
+                                className: "h-4 w-4",
+                                "data-co-dev-file-path": "src/components/ui/dialog.tsx",
+                                "data-co-dev-file-part": "2090:2124",
+                                "data-co-dev-element": "Cross2Icon"
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                className: "sr-only",
+                                "data-co-dev-file-path": "src/components/ui/dialog.tsx",
+                                "data-co-dev-file-part": "2133:2171",
+                                "data-co-dev-element": "span",
+                                children: "Close"
+                            })
+                        ]
+                    })
+                ]
+            })
+        ]
+    });
+});
+dialog_DialogContent.displayName = Content.displayName;
+const DialogHeader = (param)=>{
+    let { className, ...props } = param;
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+        className: (0,utils.cn)("flex flex-col space-y-1.5 text-center sm:text-left", className),
+        ...props,
+        "data-co-dev-file-path": "src/components/ui/dialog.tsx",
+        "data-co-dev-file-part": "2416:2542",
+        "data-co-dev-element": "div"
+    });
+};
+DialogHeader.displayName = "DialogHeader";
+const DialogFooter = (param)=>{
+    let { className, ...props } = param;
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+        className: (0,utils.cn)("flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-2", className),
+        ...props,
+        "data-co-dev-file-path": "src/components/ui/dialog.tsx",
+        "data-co-dev-file-part": "2684:2821",
+        "data-co-dev-element": "div"
+    });
+};
+DialogFooter.displayName = "DialogFooter";
+const dialog_DialogTitle = /*#__PURE__*/ react.forwardRef((param, ref)=>{
+    let { className, ...props } = param;
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Title, {
+        ref: ref,
+        className: (0,utils.cn)("text-lg font-semibold leading-none tracking-tight", className),
+        ...props,
+        "data-co-dev-file-path": "src/components/ui/dialog.tsx",
+        "data-co-dev-file-part": "3058:3215",
+        "data-co-dev-element": "DialogPrimitive.Title"
+    });
+});
+dialog_DialogTitle.displayName = Title.displayName;
+const dialog_DialogDescription = /*#__PURE__*/ react.forwardRef((param, ref)=>{
+    let { className, ...props } = param;
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Description, {
+        ref: ref,
+        className: (0,utils.cn)("text-sm text-muted-foreground", className),
+        ...props,
+        "data-co-dev-file-path": "src/components/ui/dialog.tsx",
+        "data-co-dev-file-part": "3489:3614",
+        "data-co-dev-element": "DialogPrimitive.Description"
+    });
+});
+dialog_DialogDescription.displayName = Description.displayName;
+
+
+;// CONCATENATED MODULE: ./src/pages/index.tsx
+
+
+
+
+
+
+
+
+
+
+function Home() {
+    const router = (0,next_router.useRouter)();
+    const navigateToContact = ()=>{
+        window.open("https://forms.zohopublic.in/truenorthcaptgm1/form/ContactUs/formperma/MsBtYUI93-4PVXyGw7p0y4JKRK3Idlq6VmReVz8lopg", "_blank");
+    };
+    const navigateToNewsletter = ()=>{
+        window.open("https://forms.zohopublic.in/truenorthcaptgm1/form/EmailSubscription/formperma/TDsrR8ih4dXbn-w1J7ELWDrDrJo9EeiISDPpRuSb0iI", "_blank");
+    };
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)((head_default()), {
+                "data-co-dev-file-path": "src/pages/index.tsx",
+                "data-co-dev-file-part": "1093:1491",
+                "data-co-dev-element": "Head",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("title", {
+                        "data-co-dev-file-path": "src/pages/index.tsx",
+                        "data-co-dev-file-part": "1108:1167",
+                        "data-co-dev-element": "title",
+                        children: "TrueNorth Capital | Investment Advisory Firm"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("meta", {
+                        name: "description",
+                        content: "Expert investment advisory services, personalized investment ideas, and insightful newsletters to help you achieve your financial goals.",
+                        "data-co-dev-file-path": "src/pages/index.tsx",
+                        "data-co-dev-file-part": "1176:1350",
+                        "data-co-dev-element": "meta"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("meta", {
+                        name: "viewport",
+                        content: "width=device-width, initial-scale=1",
+                        "data-co-dev-file-path": "src/pages/index.tsx",
+                        "data-co-dev-file-part": "1359:1429",
+                        "data-co-dev-element": "meta"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("link", {
+                        rel: "icon",
+                        href: "/favicon.ico",
+                        "data-co-dev-file-path": "src/pages/index.tsx",
+                        "data-co-dev-file-part": "1438:1477",
+                        "data-co-dev-element": "link"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                className: "bg-background min-h-screen flex flex-col relative",
+                "data-co-dev-file-path": "src/pages/index.tsx",
+                "data-co-dev-file-part": "1498:14205",
+                "data-co-dev-element": "div",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "fixed inset-0 pointer-events-none z-0 flex items-center justify-center opacity-[0.03] overflow-hidden",
+                        "data-co-dev-file-path": "src/pages/index.tsx",
+                        "data-co-dev-file-part": "1606:2031",
+                        "data-co-dev-element": "div",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                            className: "w-[120%] h-[120%]",
+                            "data-co-dev-file-path": "src/pages/index.tsx",
+                            "data-co-dev-file-part": "1736:2016",
+                            "data-co-dev-element": "div",
+                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                                src: "https://assets.co.dev/5d273add-92a8-499c-8825-1a606c55fe31/logo.jpeg-5761dd4.jpeg",
+                                alt: "Background Logo",
+                                className: "w-full h-full object-contain",
+                                "data-co-dev-file-path": "src/pages/index.tsx",
+                                "data-co-dev-file-part": "1784:1999",
+                                "data-co-dev-element": "img"
+                            })
+                        })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_Header, {
+                        "data-co-dev-file-path": "src/pages/index.tsx",
+                        "data-co-dev-file-part": "2040:2050",
+                        "data-co-dev-element": "Header"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("section", {
+                        id: "home",
+                        className: "py-12 px-4 sm:px-6 lg:px-8 text-center scroll-mt-20",
+                        "data-co-dev-file-path": "src/pages/index.tsx",
+                        "data-co-dev-file-part": "2097:3082",
+                        "data-co-dev-element": "section",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                            className: "max-w-4xl mx-auto",
+                            "data-co-dev-file-path": "src/pages/index.tsx",
+                            "data-co-dev-file-part": "2191:3063",
+                            "data-co-dev-element": "div",
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("h1", {
+                                    className: "text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70",
+                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                    "data-co-dev-file-part": "2239:2431",
+                                    "data-co-dev-element": "h1",
+                                    children: "Data Driven Investment Strategies"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                    className: "text-lg text-muted-foreground mb-6 max-w-2xl mx-auto",
+                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                    "data-co-dev-file-part": "2444:2638",
+                                    "data-co-dev-element": "p",
+                                    children: "Expert guidance, personalized investment ideas, and market insights delivered directly to you."
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                    className: "flex flex-col sm:flex-row gap-4 justify-center",
+                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                    "data-co-dev-file-part": "2651:3046",
+                                    "data-co-dev-element": "div",
+                                    children: [
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(ui_button/* Button */.z, {
+                                            size: "lg",
+                                            className: "font-semibold",
+                                            onClick: navigateToContact,
+                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                            "data-co-dev-file-part": "2730:2855",
+                                            "data-co-dev-element": "Button",
+                                            children: "Get in Touch"
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(ui_button/* Button */.z, {
+                                            size: "lg",
+                                            variant: "outline",
+                                            className: "font-semibold",
+                                            onClick: navigateToNewsletter,
+                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                            "data-co-dev-file-part": "2870:3027",
+                                            "data-co-dev-element": "Button",
+                                            children: "Subscribe to Newsletter"
+                                        })
+                                    ]
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(separator_Separator, {
+                        "data-co-dev-file-path": "src/pages/index.tsx",
+                        "data-co-dev-file-part": "3092:3105",
+                        "data-co-dev-element": "Separator"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("section", {
+                        id: "offerings",
+                        className: "py-10 px-4 sm:px-6 lg:px-8 scroll-mt-20",
+                        "data-co-dev-file-path": "src/pages/index.tsx",
+                        "data-co-dev-file-part": "3157:4995",
+                        "data-co-dev-element": "section",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                            className: "max-w-7xl mx-auto",
+                            "data-co-dev-file-path": "src/pages/index.tsx",
+                            "data-co-dev-file-part": "3244:4976",
+                            "data-co-dev-element": "div",
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("h2", {
+                                    className: "text-3xl font-bold text-center mb-8",
+                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                    "data-co-dev-file-part": "3292:3362",
+                                    "data-co-dev-element": "h2",
+                                    children: "Our Offerings"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                    className: "grid md:grid-cols-2 gap-6 max-w-4xl mx-auto",
+                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                    "data-co-dev-file-part": "3375:4959",
+                                    "data-co-dev-element": "div",
+                                    children: [
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)(card/* Card */.Zb, {
+                                            className: "flex flex-col",
+                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                            "data-co-dev-file-part": "3451:4162",
+                                            "data-co-dev-element": "Card",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)(card/* CardHeader */.Ol, {
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "3500:3695",
+                                                    "data-co-dev-element": "CardHeader",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(card/* CardTitle */.ll, {
+                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                            "data-co-dev-file-part": "3531:3577",
+                                                            "data-co-dev-element": "CardTitle",
+                                                            children: "Portfolio Restructuring"
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(card/* CardDescription */.SZ, {
+                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                            "data-co-dev-file-part": "3596:3665",
+                                                            "data-co-dev-element": "CardDescription",
+                                                            children: "Optimize your investment portfolio"
+                                                        })
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(card/* CardContent */.aY, {
+                                                    className: "flex-grow",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "3712:3970",
+                                                    "data-co-dev-element": "CardContent",
+                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                        "data-co-dev-file-part": "3766:3939",
+                                                        "data-co-dev-element": "p",
+                                                        children: "We evaluate your existing investments and recommend strategic adjustments to optimize returns, reduce risk, and align with your financial goals and market conditions."
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(card/* CardFooter */.eW, {
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "3987:4140",
+                                                    "data-co-dev-element": "CardFooter",
+                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ui_button/* Button */.z, {
+                                                        variant: "outline",
+                                                        className: "w-full",
+                                                        onClick: navigateToContact,
+                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                        "data-co-dev-file-part": "4018:4110",
+                                                        "data-co-dev-element": "Button",
+                                                        children: "Learn More"
+                                                    })
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)(card/* Card */.Zb, {
+                                            className: "flex flex-col",
+                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                            "data-co-dev-file-part": "4192:4940",
+                                            "data-co-dev-element": "Card",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)(card/* CardHeader */.Ol, {
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "4241:4446",
+                                                    "data-co-dev-element": "CardHeader",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(card/* CardTitle */.ll, {
+                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                            "data-co-dev-file-part": "4272:4313",
+                                                            "data-co-dev-element": "CardTitle",
+                                                            children: "Financial Planning"
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(card/* CardDescription */.SZ, {
+                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                            "data-co-dev-file-part": "4332:4416",
+                                                            "data-co-dev-element": "CardDescription",
+                                                            children: "Comprehensive guidance for your financial journey"
+                                                        })
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(card/* CardContent */.aY, {
+                                                    className: "flex-grow",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "4463:4747",
+                                                    "data-co-dev-element": "CardContent",
+                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                        "data-co-dev-file-part": "4517:4716",
+                                                        "data-co-dev-element": "p",
+                                                        children: "We work with you to create a personalized financial roadmap, addressing retirement planning, tax optimization, estate planning, and investment strategies tailored to your unique circumstances."
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)(card/* CardFooter */.eW, {
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "4764:4918",
+                                                    "data-co-dev-element": "CardFooter",
+                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ui_button/* Button */.z, {
+                                                        variant: "outline",
+                                                        className: "w-full",
+                                                        onClick: navigateToContact,
+                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                        "data-co-dev-file-part": "4795:4888",
+                                                        "data-co-dev-element": "Button",
+                                                        children: "Get Started"
+                                                    })
+                                                })
+                                            ]
+                                        })
+                                    ]
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(separator_Separator, {
+                        "data-co-dev-file-path": "src/pages/index.tsx",
+                        "data-co-dev-file-part": "5005:5018",
+                        "data-co-dev-element": "Separator"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("section", {
+                        id: "contact",
+                        className: "py-10 px-4 sm:px-6 lg:px-8 scroll-mt-20",
+                        "data-co-dev-file-path": "src/pages/index.tsx",
+                        "data-co-dev-file-part": "5068:6845",
+                        "data-co-dev-element": "section",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                            className: "max-w-3xl mx-auto text-center",
+                            "data-co-dev-file-path": "src/pages/index.tsx",
+                            "data-co-dev-file-part": "5153:6826",
+                            "data-co-dev-element": "div",
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("h2", {
+                                    className: "text-3xl font-bold mb-4",
+                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                    "data-co-dev-file-part": "5213:5268",
+                                    "data-co-dev-element": "h2",
+                                    children: "Contact Us"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                    className: "text-muted-foreground mb-6",
+                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                    "data-co-dev-file-part": "5281:5401",
+                                    "data-co-dev-element": "p",
+                                    children: "Have questions or ready to start your investment journey? Reach out to us."
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                    className: "grid md:grid-cols-2 gap-6 text-left mb-6",
+                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                    "data-co-dev-file-part": "5427:6657",
+                                    "data-co-dev-element": "div",
+                                    children: [
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                            "data-co-dev-file-part": "5500:6157",
+                                            "data-co-dev-element": "div",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
+                                                    className: "text-lg font-semibold mb-3",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "5522:5580",
+                                                    "data-co-dev-element": "h3",
+                                                    children: "Our Office"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                    className: "mb-1",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "5597:5635",
+                                                    "data-co-dev-element": "p",
+                                                    children: "212, The Spire"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                    className: "mb-1",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "5652:5702",
+                                                    "data-co-dev-element": "p",
+                                                    children: "150 Feet Ring Road, Rajkot"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                    className: "mb-1",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "5719:5752",
+                                                    "data-co-dev-element": "p",
+                                                    children: "GJ, India"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                    className: "mb-3",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "5769:5819",
+                                                    "data-co-dev-element": "p",
+                                                    children: "Mon-Fri: 9:00 AM - 6:00 PM"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                    className: "mb-1",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "5836:5890",
+                                                    "data-co-dev-element": "p",
+                                                    children: "Email: truenorthcapt@gmail.com"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                    className: "mb-1",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "5907:5969",
+                                                    "data-co-dev-element": "p",
+                                                    children: "Phone: +91-9408270249 / +91-7984302516"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                    className: "mb-1",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "5986:6057",
+                                                    "data-co-dev-element": "p",
+                                                    children: "SEBI Registered Investment Advisor (Individual)"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                    className: "mb-1",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "6074:6136",
+                                                    "data-co-dev-element": "p",
+                                                    children: "SEBI Registration Number: INA000020040"
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                            "data-co-dev-file-part": "6187:6638",
+                                            "data-co-dev-element": "div",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
+                                                    className: "text-lg font-semibold mb-3",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "6209:6280",
+                                                    "data-co-dev-element": "h3",
+                                                    children: "Subscribe to Newsletter"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                    className: "mb-3",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "6297:6390",
+                                                    "data-co-dev-element": "p",
+                                                    children: "Stay updated with our latest investment insights and market analysis."
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                    className: "flex flex-col gap-2",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "6407:6617",
+                                                    "data-co-dev-element": "div",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(input/* Input */.I, {
+                                                            type: "email",
+                                                            placeholder: "Your email address",
+                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                            "data-co-dev-file-part": "6463:6518",
+                                                            "data-co-dev-element": "Input"
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)(ui_button/* Button */.z, {
+                                                            onClick: navigateToNewsletter,
+                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                            "data-co-dev-file-part": "6537:6594",
+                                                            "data-co-dev-element": "Button",
+                                                            children: "Subscribe"
+                                                        })
+                                                    ]
+                                                })
+                                            ]
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)(ui_button/* Button */.z, {
+                                    size: "lg",
+                                    className: "font-semibold mt-4",
+                                    onClick: navigateToContact,
+                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                    "data-co-dev-file-part": "6683:6809",
+                                    "data-co-dev-element": "Button",
+                                    children: "Get in Touch"
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("footer", {
+                        className: "py-8 px-4 sm:px-6 lg:px-8 border-t",
+                        "data-co-dev-file-path": "src/pages/index.tsx",
+                        "data-co-dev-file-part": "6886:14192",
+                        "data-co-dev-element": "footer",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                            className: "max-w-7xl mx-auto",
+                            "data-co-dev-file-path": "src/pages/index.tsx",
+                            "data-co-dev-file-part": "6952:14174",
+                            "data-co-dev-element": "div",
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                    className: "grid md:grid-cols-3 gap-6",
+                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                    "data-co-dev-file-part": "7000:13966",
+                                    "data-co-dev-element": "div",
+                                    children: [
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                            "data-co-dev-file-part": "7058:7293",
+                                            "data-co-dev-element": "div",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
+                                                    className: "font-semibold mb-3",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "7080:7137",
+                                                    "data-co-dev-element": "h3",
+                                                    children: "TrueNorth Capital"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                    className: "text-sm text-muted-foreground",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "7154:7272",
+                                                    "data-co-dev-element": "p",
+                                                    children: "Expert investment advisory services tailored to your financial goals."
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                            "data-co-dev-file-part": "7323:8094",
+                                            "data-co-dev-element": "div",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
+                                                    className: "font-semibold mb-3",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "7345:7396",
+                                                    "data-co-dev-element": "h3",
+                                                    children: "Quick Links"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("ul", {
+                                                    className: "space-y-1 text-sm",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "7413:8073",
+                                                    "data-co-dev-element": "ul",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("li", {
+                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                            "data-co-dev-file-part": "7466:7642",
+                                                            "data-co-dev-element": "li",
+                                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                                                onClick: ()=>{
+                                                                    var _document_getElementById;
+                                                                    return (_document_getElementById = document.getElementById("home")) === null || _document_getElementById === void 0 ? void 0 : _document_getElementById.scrollIntoView({
+                                                                        behavior: "smooth"
+                                                                    });
+                                                                },
+                                                                className: "text-muted-foreground hover:text-primary cursor-pointer",
+                                                                "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                "data-co-dev-file-part": "7470:7637",
+                                                                "data-co-dev-element": "a",
+                                                                children: "Home"
+                                                            })
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("li", {
+                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                            "data-co-dev-file-part": "7661:7847",
+                                                            "data-co-dev-element": "li",
+                                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                                                onClick: ()=>{
+                                                                    var _document_getElementById;
+                                                                    return (_document_getElementById = document.getElementById("offerings")) === null || _document_getElementById === void 0 ? void 0 : _document_getElementById.scrollIntoView({
+                                                                        behavior: "smooth"
+                                                                    });
+                                                                },
+                                                                className: "text-muted-foreground hover:text-primary cursor-pointer",
+                                                                "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                "data-co-dev-file-part": "7665:7842",
+                                                                "data-co-dev-element": "a",
+                                                                children: "Offerings"
+                                                            })
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("li", {
+                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                            "data-co-dev-file-part": "7866:8051",
+                                                            "data-co-dev-element": "li",
+                                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                                                onClick: ()=>{
+                                                                    var _document_getElementById;
+                                                                    return (_document_getElementById = document.getElementById("contact")) === null || _document_getElementById === void 0 ? void 0 : _document_getElementById.scrollIntoView({
+                                                                        behavior: "smooth"
+                                                                    });
+                                                                },
+                                                                className: "text-muted-foreground hover:text-primary cursor-pointer",
+                                                                "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                "data-co-dev-file-part": "7870:8046",
+                                                                "data-co-dev-element": "a",
+                                                                children: "Contact Us"
+                                                            })
+                                                        })
+                                                    ]
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                            "data-co-dev-file-part": "8124:13947",
+                                            "data-co-dev-element": "div",
+                                            children: [
+                                                /*#__PURE__*/ (0,jsx_runtime.jsx)("h3", {
+                                                    className: "font-semibold mb-3",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "8146:8191",
+                                                    "data-co-dev-element": "h3",
+                                                    children: "Legal"
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("ul", {
+                                                    className: "space-y-1 text-sm",
+                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                    "data-co-dev-file-part": "8208:13926",
+                                                    "data-co-dev-element": "ul",
+                                                    children: [
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("li", {
+                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                            "data-co-dev-file-part": "8261:11878",
+                                                            "data-co-dev-element": "li",
+                                                            children: /*#__PURE__*/ (0,jsx_runtime.jsxs)(dialog_Dialog, {
+                                                                "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                "data-co-dev-file-part": "8286:11854",
+                                                                "data-co-dev-element": "Dialog",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(dialog_DialogTrigger, {
+                                                                        asChild: true,
+                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                        "data-co-dev-file-part": "8317:8493",
+                                                                        "data-co-dev-element": "DialogTrigger",
+                                                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                                                            className: "text-muted-foreground hover:text-primary cursor-pointer",
+                                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                            "data-co-dev-file-part": "8365:8454",
+                                                                            "data-co-dev-element": "a",
+                                                                            children: "Privacy Policy"
+                                                                        })
+                                                                    }),
+                                                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)(dialog_DialogContent, {
+                                                                        className: "max-w-3xl max-h-[80vh] overflow-y-auto",
+                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                        "data-co-dev-file-part": "8516:11824",
+                                                                        "data-co-dev-element": "DialogContent",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)(DialogHeader, {
+                                                                                "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                "data-co-dev-file-part": "8607:8729",
+                                                                                "data-co-dev-element": "DialogHeader",
+                                                                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(dialog_DialogTitle, {
+                                                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                    "data-co-dev-file-part": "8648:8689",
+                                                                                    "data-co-dev-element": "DialogTitle",
+                                                                                    children: "Privacy Policy"
+                                                                                })
+                                                                            }),
+                                                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                                                className: "space-y-4 mt-4",
+                                                                                "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                "data-co-dev-file-part": "8754:11785",
+                                                                                "data-co-dev-element": "div",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "8813:8848",
+                                                                                        "data-co-dev-element": "p",
+                                                                                        children: "Last Updated: April 10, 2025"
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("h4", {
+                                                                                        className: "text-lg font-medium",
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "8902:8958",
+                                                                                        "data-co-dev-element": "h4",
+                                                                                        children: "1. Introduction"
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "8985:9271",
+                                                                                        "data-co-dev-element": "p",
+                                                                                        children: 'TrueNorth Capital ("we," "our," or "us") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our investment advisory services.'
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("h4", {
+                                                                                        className: "text-lg font-medium",
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "9325:9391",
+                                                                                        "data-co-dev-element": "h4",
+                                                                                        children: "2. Information We Collect"
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "9418:9787",
+                                                                                        "data-co-dev-element": "p",
+                                                                                        children: "We may collect personal information that you voluntarily provide to us when you express interest in obtaining information about our services, participate in activities on our website, or otherwise contact us. The personal information we collect may include your name, email address, telephone number, mailing address, and other information you choose to provide."
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("h4", {
+                                                                                        className: "text-lg font-medium",
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "9841:9912",
+                                                                                        "data-co-dev-element": "h4",
+                                                                                        children: "3. How We Use Your Information"
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "9939:10184",
+                                                                                        "data-co-dev-element": "p",
+                                                                                        children: "We may use the information we collect for various purposes, including to provide and maintain our services, respond to your inquiries, send you marketing communications, improve our website and services, and comply with legal obligations."
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("h4", {
+                                                                                        className: "text-lg font-medium",
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "10238:10312",
+                                                                                        "data-co-dev-element": "h4",
+                                                                                        children: "4. Disclosure of Your Information"
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "10339:10542",
+                                                                                        "data-co-dev-element": "p",
+                                                                                        children: "We may share your information with service providers who perform services on our behalf, with your consent or at your direction, in connection with a business transaction, or when required by law."
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("h4", {
+                                                                                        className: "text-lg font-medium",
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "10596:10668",
+                                                                                        "data-co-dev-element": "h4",
+                                                                                        children: "5. Security of Your Information"
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "10695:10907",
+                                                                                        "data-co-dev-element": "p",
+                                                                                        children: "We use administrative, technical, and physical security measures to protect your personal information. However, no data transmission over the Internet or storage system can be guaranteed to be 100% secure."
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("h4", {
+                                                                                        className: "text-lg font-medium",
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "10961:11016",
+                                                                                        "data-co-dev-element": "h4",
+                                                                                        children: "6. Your Rights"
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "11043:11217",
+                                                                                        "data-co-dev-element": "p",
+                                                                                        children: "Depending on your location, you may have certain rights regarding your personal information, such as the right to access, correct, or delete your personal information."
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("h4", {
+                                                                                        className: "text-lg font-medium",
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "11271:11345",
+                                                                                        "data-co-dev-element": "h4",
+                                                                                        children: "7. Changes to This Privacy Policy"
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "11372:11512",
+                                                                                        "data-co-dev-element": "p",
+                                                                                        children: "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page."
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("h4", {
+                                                                                        className: "text-lg font-medium",
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "11566:11620",
+                                                                                        "data-co-dev-element": "h4",
+                                                                                        children: "8. Contact Us"
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "11647:11754",
+                                                                                        "data-co-dev-element": "p",
+                                                                                        children: "If you have any questions about this Privacy Policy, please contact us at info@truenorthcapital.com."
+                                                                                    })
+                                                                                ]
+                                                                            })
+                                                                        ]
+                                                                    })
+                                                                ]
+                                                            })
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("li", {
+                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                            "data-co-dev-file-part": "11897:12173",
+                                                            "data-co-dev-element": "li",
+                                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                                                href: "https://drive.google.com/file/d/1P3IdAHg-8h4WcxyjFqA5JBOAeWVkCVqW/view?usp=sharing",
+                                                                target: "_blank",
+                                                                rel: "noopener noreferrer",
+                                                                className: "text-muted-foreground hover:text-primary cursor-pointer",
+                                                                "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                "data-co-dev-file-part": "11922:12149",
+                                                                "data-co-dev-element": "a",
+                                                                children: "Terms and Conditions"
+                                                            })
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("li", {
+                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                            "data-co-dev-file-part": "12192:13465",
+                                                            "data-co-dev-element": "li",
+                                                            children: /*#__PURE__*/ (0,jsx_runtime.jsxs)(dialog_Dialog, {
+                                                                "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                "data-co-dev-file-part": "12217:13441",
+                                                                "data-co-dev-element": "Dialog",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)(dialog_DialogTrigger, {
+                                                                        asChild: true,
+                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                        "data-co-dev-file-part": "12248:12420",
+                                                                        "data-co-dev-element": "DialogTrigger",
+                                                                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                                                            className: "text-muted-foreground hover:text-primary cursor-pointer",
+                                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                            "data-co-dev-file-part": "12296:12381",
+                                                                            "data-co-dev-element": "a",
+                                                                            children: "Disclaimer"
+                                                                        })
+                                                                    }),
+                                                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)(dialog_DialogContent, {
+                                                                        className: "max-w-3xl max-h-[80vh] overflow-y-auto",
+                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                        "data-co-dev-file-part": "12443:13411",
+                                                                        "data-co-dev-element": "DialogContent",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0,jsx_runtime.jsx)(DialogHeader, {
+                                                                                "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                "data-co-dev-file-part": "12534:12652",
+                                                                                "data-co-dev-element": "DialogHeader",
+                                                                                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(dialog_DialogTitle, {
+                                                                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                    "data-co-dev-file-part": "12575:12612",
+                                                                                    "data-co-dev-element": "DialogTitle",
+                                                                                    children: "Disclaimer"
+                                                                                })
+                                                                            }),
+                                                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                                                className: "space-y-4 mt-4",
+                                                                                "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                "data-co-dev-file-part": "12677:13372",
+                                                                                "data-co-dev-element": "div",
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "12736:12795",
+                                                                                        "data-co-dev-element": "p",
+                                                                                        children: "Name: TrueNorth Capital (Proprietor: Rajan Gajariya)"
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "12822:12876",
+                                                                                        "data-co-dev-element": "p",
+                                                                                        children: "SEBI Registered Investment Advisor (Individual)"
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "12903:12948",
+                                                                                        "data-co-dev-element": "p",
+                                                                                        children: "SEBI Registration Number: INA000020040"
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                                        className: "font-medium mt-4",
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "12975:13028",
+                                                                                        "data-co-dev-element": "p",
+                                                                                        children: "Standard Warning:"
+                                                                                    }),
+                                                                                    /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                                                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                                        "data-co-dev-file-part": "13055:13341",
+                                                                                        "data-co-dev-element": "p",
+                                                                                        children: '"Investment in securities market are subject to market risks. Read all the related documents carefully before investing. Registration granted by SEBI and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors"'
+                                                                                    })
+                                                                                ]
+                                                                            })
+                                                                        ]
+                                                                    })
+                                                                ]
+                                                            })
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("li", {
+                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                            "data-co-dev-file-part": "13484:13651",
+                                                            "data-co-dev-element": "li",
+                                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                                                href: "https://scores.sebi.gov.in/",
+                                                                target: "_blank",
+                                                                rel: "noopener noreferrer",
+                                                                className: "text-muted-foreground hover:text-primary cursor-pointer",
+                                                                "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                "data-co-dev-file-part": "13488:13646",
+                                                                "data-co-dev-element": "a",
+                                                                children: "SCORES"
+                                                            })
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime.jsx)("li", {
+                                                            "data-co-dev-file-path": "src/pages/index.tsx",
+                                                            "data-co-dev-file-part": "13670:13904",
+                                                            "data-co-dev-element": "li",
+                                                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                                                href: "https://drive.google.com/file/d/1PeEGNcPDSMDmCW3_XaMYeFUmRkBKZj9D/view?usp=sharing",
+                                                                target: "_blank",
+                                                                rel: "noopener noreferrer",
+                                                                className: "text-muted-foreground hover:text-primary cursor-pointer",
+                                                                "data-co-dev-file-path": "src/pages/index.tsx",
+                                                                "data-co-dev-file-part": "13674:13899",
+                                                                "data-co-dev-element": "a",
+                                                                children: "Investment Charter"
+                                                            })
+                                                        })
+                                                    ]
+                                                })
+                                            ]
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                                    className: "mt-8 pt-6 border-t text-center text-sm text-muted-foreground",
+                                    "data-co-dev-file-path": "src/pages/index.tsx",
+                                    "data-co-dev-file-part": "13992:14157",
+                                    "data-co-dev-element": "div",
+                                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
+                                        "data-co-dev-file-path": "src/pages/index.tsx",
+                                        "data-co-dev-file-part": "14085:14138",
+                                        "data-co-dev-element": "p",
+                                        children: "\xa9 2025 TrueNorth Capital. All rights reserved."
+                                    })
+                                })
+                            ]
+                        })
+                    })
+                ]
+            })
+        ]
+    });
+}
+
+
+/***/ })
+
+},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
+/******/ __webpack_require__.O(0, [47,888,774,179], function() { return __webpack_exec__(1476); });
+/******/ var __webpack_exports__ = __webpack_require__.O();
+/******/ _N_E = __webpack_exports__;
+/******/ }
+]);
